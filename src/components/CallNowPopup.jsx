@@ -3,7 +3,7 @@ import React from 'react';
 function CallNowPopup() {
   return (
     <div className="fixed bottom-6 right-6 z-50">
-      <div className="bg-black/70 text-white p-4 rounded-xl shadow-lg w-64 backdrop-blur-sm">
+      <div className="bg-black bg-opacity-70 backdrop-blur-sm text-white p-4 rounded-xl shadow-xl w-64">
         <h3 className="text-lg font-semibold mb-1">Barbering with Style</h3>
         <p className="text-sm mb-3">Denton, TX · Open till 7 PM</p>
         <a
